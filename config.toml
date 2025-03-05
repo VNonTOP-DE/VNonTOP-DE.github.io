@@ -1,6 +1,12 @@
-languageCode = "en-us"
+languageCode = "en-US"
+defaultContentLanguage = "en-US"
+[languages]
+  [languages.en-US]
+    languageName = "English"
+    weight = 1
 theme = "hugo-theme-reimu"
-baseURL = "/"
+baseURL = "https://vnontop-de.github.io/"
+publishDir = "."
 [module]
   [module.hugoVersion]
     extended = true

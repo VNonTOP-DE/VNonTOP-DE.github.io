@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on </title>
-    <link>//localhost:8080/</link>
+    <link>https://vnontop-de.github.io/</link>
     <description>Recent content in Home on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:8080/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://vnontop-de.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
-      <link>//localhost:8080/post/hello-world/</link>
+      <link>https://vnontop-de.github.io/post/hello-world/</link>
       <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:8080/post/hello-world/</guid>
+      <guid>https://vnontop-de.github.io/post/hello-world/</guid>
       <description>&lt;p&gt;This is a sample post.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
-      <link>//localhost:8080/about/</link>
+      <link>https://vnontop-de.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:8080/about/</guid>
+      <guid>https://vnontop-de.github.io/about/</guid>
       <description>&lt;p&gt;Your about content here.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Friends</title>
-      <link>//localhost:8080/friend/</link>
+      <link>https://vnontop-de.github.io/friend/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:8080/friend/</guid>
+      <guid>https://vnontop-de.github.io/friend/</guid>
       <description>&lt;p&gt;Your friends list here.&lt;/p&gt;</description>
     </item>
   </channel>

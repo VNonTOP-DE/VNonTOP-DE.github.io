@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:8080/post/hello-world/</loc>
+    <loc>https://vnontop-de.github.io/post/hello-world/</loc>
     <lastmod>2023-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:8080/</loc>
+    <loc>https://vnontop-de.github.io/</loc>
     <lastmod>2023-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:8080/about/</loc>
+    <loc>https://vnontop-de.github.io/about/</loc>
   </url><url>
-    <loc>//localhost:8080/archives/</loc>
+    <loc>https://vnontop-de.github.io/archives/</loc>
   </url><url>
-    <loc>//localhost:8080/categories/</loc>
+    <loc>https://vnontop-de.github.io/categories/</loc>
   </url><url>
-    <loc>//localhost:8080/friend/</loc>
+    <loc>https://vnontop-de.github.io/friend/</loc>
   </url><url>
-    <loc>//localhost:8080/tags/</loc>
+    <loc>https://vnontop-de.github.io/tags/</loc>
   </url>
 </urlset>
