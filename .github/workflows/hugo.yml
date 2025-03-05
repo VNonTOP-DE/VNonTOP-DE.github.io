@@ -22,6 +22,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public    # Directory where Hugo builds your site
+          publish_dir: .    # Directory where Hugo builds your site
           publish_branch: gh-pages # Target branch for deployment
           force_orphan: true       # Ensures a clean gh-pages branch each time
