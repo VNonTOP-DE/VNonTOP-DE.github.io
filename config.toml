@@ -2,7 +2,7 @@ languageCode = "en-US"
 defaultContentLanguage = "en-US"
 theme = "hugo-theme-reimu"
 baseURL = "https://vnontop-de.github.io/"
-publishDir = "."
+publishDir = "public"
 [languages]
   [languages.en-US]
     languageName = "English"
