@@ -1,9 +1,4 @@
-languageCode = "en-US"
-defaultContentLanguage = "en-US"
-[languages]
-  [languages.en-US]
-    languageName = "English"
-    weight = 1
+languageCode = "en-us"
 theme = "hugo-theme-reimu"
 baseURL = "/"
 [module]
