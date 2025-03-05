@@ -1,0 +1,3 @@
+[submodule "my-portfolio/themes/hugo-theme-reimu"]
+	path = my-portfolio/themes/hugo-theme-reimu
+	url = https://github.com/VNonTOP-DE/hugo-theme-reimu.git
