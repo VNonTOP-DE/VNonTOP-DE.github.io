@@ -1,0 +1,12 @@
+languageCode = "en-US"
+defaultContentLanguage = "en-US"
+[languages]
+  [languages.en-US]
+    languageName = "English"
+    weight = 1
+theme = "hugo-theme-reimu"
+baseURL = "/"
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.116.0"

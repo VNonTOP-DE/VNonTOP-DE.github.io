@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>//localhost:8080/</link>
+    <description>Recent content on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:8080/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>//localhost:8080/post/hello-world/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:8080/post/hello-world/</guid>
+      <description>&lt;p&gt;This is a sample post.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>//localhost:8080/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:8080/about/</guid>
+      <description>&lt;p&gt;Your about content here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Friends</title>
+      <link>//localhost:8080/friend/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:8080/friend/</guid>
+      <description>&lt;p&gt;Your friends list here.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
