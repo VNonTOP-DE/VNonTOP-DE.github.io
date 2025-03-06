@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Pipeline on Nguyen Hoang Tuan - Data Engineer</title>
+    <link>http://localhost:1313/tags/data-pipeline/</link>
+    <description>Recent content in Data Pipeline on Nguyen Hoang Tuan - Data Engineer</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/data-pipeline/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MyAnimeList Data Engineering Pipeline</title>
+      <link>http://localhost:1313/post/anime-web-scraping/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/anime-web-scraping/</guid>
+      <description>&lt;h2 id=&#34;project-overview&#34;&gt;&#xD;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#project-overview&#34;&gt;&lt;/a&gt;&#xD;&#xA;Project Overview&#xD;&#xA;&lt;/h2&gt;&lt;p&gt;This project implements a comprehensive data engineering pipeline that extracts, transforms, and loads (ETL) detailed information about the top 4,400 anime from MyAnimeList.net. The system uses advanced web scraping techniques to collect rich metadata and stores it in Snowflake data warehouse for efficient querying and in-depth analysis. The data warehouse architecture enables complex analytical queries while maintaining high performance and scalability.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Goal:&lt;/strong&gt; Create a robust data pipeline to collect, clean, and store comprehensive anime data while handling complex nested relationships and maintaining data integrity.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,6 +1,6 @@
 ---
-title: "Hello World"
-date: 2023-10-01
+title: "Comming soon"
+date: 2001-10-08
 draft: false
 ---
-This is a sample post.
+Currently working on another amazing project...
