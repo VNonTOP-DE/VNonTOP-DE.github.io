@@ -1,33 +1,204 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Home on </title>
-    <link>http://localhost:8080/</link>
-    <description>Recent content in Home on </description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:8080/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hello World</title>
-      <link>http://localhost:8080/post/hello-world/</link>
-      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:8080/post/hello-world/</guid>
-      <description>&lt;p&gt;This is a sample post.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>http://localhost:8080/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:8080/about/</guid>
-      <description>&lt;p&gt;Your about content here.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Friends</title>
-      <link>http://localhost:8080/friend/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:8080/friend/</guid>
-      <description>&lt;p&gt;Your friends list here.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nguyen Hoang Tuan - Data Engineer</title><link>https://vnontop-de.github.io/</link><description>Recent content on Nguyen Hoang Tuan - Data Engineer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 10 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://vnontop-de.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Automated Pixiv Artwork Scraper</title><link>https://vnontop-de.github.io/post/pixiv-scraper/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://vnontop-de.github.io/post/pixiv-scraper/</guid><description>&lt;h2 id="project-overview">
+&lt;a class="header-anchor" href="#project-overview">&lt;/a>
+Project Overview
+&lt;/h2>&lt;p>This project implements an automated artwork scraping system for Pixiv, combining Selenium for dynamic content rendering and Scrapy for efficient data extraction. The system intelligently navigates through artwork recommendations and downloads images while respecting the platform&amp;rsquo;s rate limits.&lt;/p>
+&lt;p>&lt;strong>Goal:&lt;/strong> Create a robust automated system to collect and archive high-quality artwork while handling dynamic content loading and maintaining platform-friendly access patterns.&lt;/p>
+&lt;h2 id="technologies-used">
+&lt;a class="header-anchor" href="#technologies-used">&lt;/a>
+Technologies Used
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Web Automation:&lt;/strong> Selenium WebDriver&lt;/li>
+&lt;li>&lt;strong>Scraping Framework:&lt;/strong> Scrapy&lt;/li>
+&lt;li>&lt;strong>Browser:&lt;/strong> Chrome (Headless mode)&lt;/li>
+&lt;li>&lt;strong>Programming:&lt;/strong> Python&lt;/li>
+&lt;li>&lt;strong>Logging:&lt;/strong> Custom logging system&lt;/li>
+&lt;/ul>
+&lt;h2 id="key-features">
+&lt;a class="header-anchor" href="#key-features">&lt;/a>
+Key Features
+&lt;/h2>&lt;ul>
+&lt;li>✅ Automated navigation through artwork recommendations&lt;/li>
+&lt;li>✅ Smart image format detection (JPG/PNG)&lt;/li>
+&lt;li>✅ Robust retry mechanism for failed downloads&lt;/li>
+&lt;li>✅ Rate limiting and delay implementation&lt;/li>
+&lt;li>✅ Comprehensive error handling and logging&lt;/li>
+&lt;/ul>
+&lt;h2 id="implementation-details">
+&lt;a class="header-anchor" href="#implementation-details">&lt;/a>
+Implementation Details
+&lt;/h2>&lt;h3 id="scraping-architecture">
+&lt;a class="header-anchor" href="#scraping-architecture">&lt;/a>
+Scraping Architecture
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Hybrid Approach:&lt;/strong>
+&lt;ul>
+&lt;li>Selenium for JavaScript rendering&lt;/li>
+&lt;li>Scrapy for efficient data extraction&lt;/li>
+&lt;li>Custom middleware integration&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="download-management">
+&lt;a class="header-anchor" href="#download-management">&lt;/a>
+Download Management
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Smart Download System:&lt;/strong>
+&lt;ul>
+&lt;li>Multiple format attempt (JPG/PNG)&lt;/li>
+&lt;li>Content-type verification&lt;/li>
+&lt;li>Partial download detection&lt;/li>
+&lt;li>Automated retry mechanism&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="error-handling">
+&lt;a class="header-anchor" href="#error-handling">&lt;/a>
+Error Handling
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Robust Recovery:&lt;/strong>
+&lt;ul>
+&lt;li>Multiple retry attempts&lt;/li>
+&lt;li>Format fallback system&lt;/li>
+&lt;li>Comprehensive logging&lt;/li>
+&lt;li>Connection error handling&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="results--impact">
+&lt;a class="header-anchor" href="#results--impact">&lt;/a>
+Results &amp;amp; Impact
+&lt;/h2>&lt;h3 id="key-achievements">
+&lt;a class="header-anchor" href="#key-achievements">&lt;/a>
+Key Achievements
+&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Performance:&lt;/strong>&lt;/p></description></item><item><title>MyAnimeList Data Engineering Pipeline</title><link>https://vnontop-de.github.io/post/anime-web-scraping/</link><pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate><guid>https://vnontop-de.github.io/post/anime-web-scraping/</guid><description>&lt;h2 id="project-overview">
+&lt;a class="header-anchor" href="#project-overview">&lt;/a>
+Project Overview
+&lt;/h2>&lt;p>This project implements a comprehensive data engineering pipeline that extracts, transforms, and loads (ETL) detailed information about the top 4,400 anime from MyAnimeList.net. The system uses advanced web scraping techniques to collect rich metadata and stores it in Snowflake data warehouse for efficient querying and in-depth analysis. The data warehouse architecture enables complex analytical queries while maintaining high performance and scalability.&lt;/p>
+&lt;p>&lt;strong>Goal:&lt;/strong> Create a robust data pipeline to collect, clean, and store comprehensive anime data while handling complex nested relationships and maintaining data integrity.&lt;/p></description></item><item><title>Election Facebook Ad Campaign Analysis: Trump vs. Harris</title><link>https://vnontop-de.github.io/post/election-ad-analysis/</link><pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate><guid>https://vnontop-de.github.io/post/election-ad-analysis/</guid><description>&lt;h2 id="project-overview">
+&lt;a class="header-anchor" href="#project-overview">&lt;/a>
+Project Overview
+&lt;/h2>&lt;p>This project analyzes the advertising strategies employed by Donald Trump and Kamala Harris during the 2024 U.S. presidential campaign using data from the Facebook Ad Library. By focusing on six key flipped states—Michigan, Nevada, Georgia, Pennsylvania, Wisconsin, and Arizona—the study identifies patterns in ad spend, impressions, and audience engagement.&lt;/p>
+&lt;p>&lt;strong>Goal:&lt;/strong> Evaluating advertising campaign performance and analyzing demographic targeting differences between Trump and Harris campaigns to understand their relative effectiveness.&lt;/p></description></item><item><title>NASA APOD Fortune Teller</title><link>https://vnontop-de.github.io/post/nasa-fortune-teller/</link><pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate><guid>https://vnontop-de.github.io/post/nasa-fortune-teller/</guid><description>&lt;h2 id="project-overview">
+&lt;a class="header-anchor" href="#project-overview">&lt;/a>
+Project Overview
+&lt;/h2>&lt;p>The NASA APOD Fortune Teller is an interactive application that combines NASA&amp;rsquo;s Astronomy Picture of the Day (APOD) with AI-powered fortune generation. This unique project merges astronomical imagery with predictive analytics to create personalized celestial readings for users.&lt;/p>
+&lt;p>&lt;strong>Goal:&lt;/strong> Create an engaging platform that makes astronomy accessible while providing entertaining AI-generated fortunes based on daily space imagery.&lt;/p>
+&lt;h2 id="technologies-used">
+&lt;a class="header-anchor" href="#technologies-used">&lt;/a>
+Technologies Used
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Frontend:&lt;/strong> Streamlit&lt;/li>
+&lt;li>&lt;strong>Backend:&lt;/strong> Python&lt;/li>
+&lt;li>&lt;strong>APIs:&lt;/strong>
+&lt;ul>
+&lt;li>NASA APOD API&lt;/li>
+&lt;li>OpenAI API&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Cloud:&lt;/strong> Streamlit Cloud&lt;/li>
+&lt;/ul>
+&lt;h2 id="key-features">
+&lt;a class="header-anchor" href="#key-features">&lt;/a>
+Key Features
+&lt;/h2>&lt;ul>
+&lt;li>✅ Daily fetch of NASA&amp;rsquo;s Astronomy Picture of the Day&lt;/li>
+&lt;li>✅ AI-powered fortune generation based on astronomical imagery&lt;/li>
+&lt;li>✅ Interactive user interface with Streamlit widgets&lt;/li>
+&lt;li>✅ PDF generation for fortune sharing&lt;/li>
+&lt;li>✅ Cloud-based deployment for global access&lt;/li>
+&lt;/ul>
+&lt;h2 id="implementation-details">
+&lt;a class="header-anchor" href="#implementation-details">&lt;/a>
+Implementation Details
+&lt;/h2>&lt;h3 id="api-integration">
+&lt;a class="header-anchor" href="#api-integration">&lt;/a>
+API Integration
+&lt;/h3>&lt;ul>
+&lt;li>Implemented secure API authentication for NASA and OpenAI services&lt;/li>
+&lt;li>Developed robust error handling for API requests&lt;/li>
+&lt;li>Created caching mechanism for improved performance&lt;/li>
+&lt;/ul>
+&lt;h3 id="ai-fortune-generation">
+&lt;a class="header-anchor" href="#ai-fortune-generation">&lt;/a>
+AI Fortune Generation
+&lt;/h3>&lt;ul>
+&lt;li>Engineered prompt templates for consistent fortune generation&lt;/li>
+&lt;li>Implemented context-aware fortune creation based on image content&lt;/li>
+&lt;li>Developed filtering system for appropriate content&lt;/li>
+&lt;/ul>
+&lt;h3 id="user-interface">
+&lt;a class="header-anchor" href="#user-interface">&lt;/a>
+User Interface
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Interactive Elements:&lt;/strong>&lt;/p></description></item><item><title>Comming soon</title><link>https://vnontop-de.github.io/post/hello-world/</link><pubDate>Mon, 08 Oct 2001 00:00:00 +0000</pubDate><guid>https://vnontop-de.github.io/post/hello-world/</guid><description>&lt;p>Currently working on another amazing project&amp;hellip;&lt;/p></description></item><item><title>About Me</title><link>https://vnontop-de.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://vnontop-de.github.io/about/</guid><description>&lt;h2 id="from-problem-solver-to-data-engineer">
+&lt;a class="header-anchor" href="#from-problem-solver-to-data-engineer">&lt;/a>
+From Problem Solver to Data Engineer
+&lt;/h2>&lt;p>Hey there! I&amp;rsquo;m Tuan, and I&amp;rsquo;ve always loved solving problems. Back in high school, my friends and I would brainstorm fixes for everyday headaches like traffic jams, elevator efficiency, or parking chaos—like it was our little mission to make life better. But it&amp;rsquo;s not just the big stuff that grabs me; I&amp;rsquo;m just as hooked on tackling challenges closer to home.&lt;/p>
+&lt;p>Take my mom&amp;rsquo;s Ao Dai shop, for instance. She runs this cool little business selling these gorgeous traditional dresses, but with so many styles and sizes, keeping track of inventory is a total nightmare. She&amp;rsquo;s the only one who knows where everything is, and if she&amp;rsquo;s not around, we&amp;rsquo;re all stuck—no one else can step in to help customers. It&amp;rsquo;s been a puzzle I&amp;rsquo;ve wanted to crack for a while.&lt;/p></description></item><item><title>Resources</title><link>https://vnontop-de.github.io/friend/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://vnontop-de.github.io/friend/</guid><description>&lt;h2 id="resources">
+&lt;a class="header-anchor" href="#resources">&lt;/a>
+Resources
+&lt;/h2>&lt;p>Below is a collection of courses I’ve completed to build my skills in data engineering, cloud computing, and programming. These resources have been instrumental in shaping my technical expertise.&lt;/p>
+&lt;h4 id="building-etl-and-data-pipelines-with-bash-airflow-and-kafka">
+&lt;a class="header-anchor" href="#building-etl-and-data-pipelines-with-bash-airflow-and-kafka">&lt;/a>
+Building ETL and Data Pipelines with Bash, Airflow, and Kafka
+&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>Source:&lt;/strong> EdX.org&lt;/li>
+&lt;/ul>
+&lt;h4 id="bash-shell-scripting-and-command-line-operations">
+&lt;a class="header-anchor" href="#bash-shell-scripting-and-command-line-operations">&lt;/a>
+Bash Shell Scripting and Command-Line Operations
+&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>Source:&lt;/strong> EdX.org&lt;/li>
+&lt;/ul>
+&lt;h4 id="git-and-github-basics-ibm-cd0131en">
+&lt;a class="header-anchor" href="#git-and-github-basics-ibm-cd0131en">&lt;/a>
+Git and GitHub Basics (IBM CD0131EN)
+&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>Source:&lt;/strong> IBM via Coursera&lt;/li>
+&lt;li>&lt;strong>Credential:&lt;/strong> Git and GitHub Essentials&lt;/li>
+&lt;/ul>
+&lt;h4 id="web-applications-and-command-line-tools-for-data-engineering-ai-dataeng4x">
+&lt;a class="header-anchor" href="#web-applications-and-command-line-tools-for-data-engineering-ai-dataeng4x">&lt;/a>
+Web Applications and Command-Line Tools for Data Engineering (AI DataEng4x)
+&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>Source:&lt;/strong> EdX.org&lt;/li>
+&lt;/ul>
+&lt;h4 id="data-engineering-in-aws">
+&lt;a class="header-anchor" href="#data-engineering-in-aws">&lt;/a>
+Data Engineering in AWS
+&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>Source:&lt;/strong> Coursera&lt;/li>
+&lt;/ul>
+&lt;h4 id="aws-cloud-practitioner-essentials-aws-otp-awsd15">
+&lt;a class="header-anchor" href="#aws-cloud-practitioner-essentials-aws-otp-awsd15">&lt;/a>
+AWS Cloud Practitioner Essentials (AWS-OTP-AWSD15)
+&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>Source:&lt;/strong> AWS Training&lt;/li>
+&lt;/ul>
+&lt;h4 id="accediendo-a-los-datos-de-la-web-con-python-web-scraping-y-apis">
+&lt;a class="header-anchor" href="#accediendo-a-los-datos-de-la-web-con-python-web-scraping-y-apis">&lt;/a>
+Accediendo a los Datos de la Web con Python: Web Scraping y APIs
+&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>Source:&lt;/strong> AnahuacX (UAMY.CP9.2x)&lt;/li>
+&lt;/ul>
+&lt;h4 id="cs50s-introduction-to-programming-with-python">
+&lt;a class="header-anchor" href="#cs50s-introduction-to-programming-with-python">&lt;/a>
+CS50&amp;rsquo;s Introduction to Programming with Python
+&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>Source:&lt;/strong> Harvard University&lt;/li>
+&lt;/ul>
+&lt;h4 id="cs50s-introduction-to-databases-with-sql">
+&lt;a class="header-anchor" href="#cs50s-introduction-to-databases-with-sql">&lt;/a>
+CS50&amp;rsquo;s Introduction to Databases with SQL
+&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>Source:&lt;/strong> Harvard University&lt;/li>
+&lt;/ul>
+&lt;h4 id="spark-hadoop-and-snowflake-for-data-engineering">
+&lt;a class="header-anchor" href="#spark-hadoop-and-snowflake-for-data-engineering">&lt;/a>
+Spark, Hadoop, and Snowflake for Data Engineering
+&lt;/h4>&lt;ul>
+&lt;li>&lt;strong>Source:&lt;/strong> EdX.org&lt;/li>
+&lt;/ul></description></item></channel></rss>

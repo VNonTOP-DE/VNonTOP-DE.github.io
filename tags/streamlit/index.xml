@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Streamlit on Nguyen Hoang Tuan - Data Engineer</title><link>https://vnontop-de.github.io/tags/streamlit/</link><description>Recent content in Streamlit on Nguyen Hoang Tuan - Data Engineer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 01 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://vnontop-de.github.io/tags/streamlit/index.xml" rel="self" type="application/rss+xml"/><item><title>NASA APOD Fortune Teller</title><link>https://vnontop-de.github.io/post/nasa-fortune-teller/</link><pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate><guid>https://vnontop-de.github.io/post/nasa-fortune-teller/</guid><description>&lt;h2 id="project-overview">
+&lt;a class="header-anchor" href="#project-overview">&lt;/a>
+Project Overview
+&lt;/h2>&lt;p>The NASA APOD Fortune Teller is an interactive application that combines NASA&amp;rsquo;s Astronomy Picture of the Day (APOD) with AI-powered fortune generation. This unique project merges astronomical imagery with predictive analytics to create personalized celestial readings for users.&lt;/p>
+&lt;p>&lt;strong>Goal:&lt;/strong> Create an engaging platform that makes astronomy accessible while providing entertaining AI-generated fortunes based on daily space imagery.&lt;/p>
+&lt;h2 id="technologies-used">
+&lt;a class="header-anchor" href="#technologies-used">&lt;/a>
+Technologies Used
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Frontend:&lt;/strong> Streamlit&lt;/li>
+&lt;li>&lt;strong>Backend:&lt;/strong> Python&lt;/li>
+&lt;li>&lt;strong>APIs:&lt;/strong>
+&lt;ul>
+&lt;li>NASA APOD API&lt;/li>
+&lt;li>OpenAI API&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Cloud:&lt;/strong> Streamlit Cloud&lt;/li>
+&lt;/ul>
+&lt;h2 id="key-features">
+&lt;a class="header-anchor" href="#key-features">&lt;/a>
+Key Features
+&lt;/h2>&lt;ul>
+&lt;li>✅ Daily fetch of NASA&amp;rsquo;s Astronomy Picture of the Day&lt;/li>
+&lt;li>✅ AI-powered fortune generation based on astronomical imagery&lt;/li>
+&lt;li>✅ Interactive user interface with Streamlit widgets&lt;/li>
+&lt;li>✅ PDF generation for fortune sharing&lt;/li>
+&lt;li>✅ Cloud-based deployment for global access&lt;/li>
+&lt;/ul>
+&lt;h2 id="implementation-details">
+&lt;a class="header-anchor" href="#implementation-details">&lt;/a>
+Implementation Details
+&lt;/h2>&lt;h3 id="api-integration">
+&lt;a class="header-anchor" href="#api-integration">&lt;/a>
+API Integration
+&lt;/h3>&lt;ul>
+&lt;li>Implemented secure API authentication for NASA and OpenAI services&lt;/li>
+&lt;li>Developed robust error handling for API requests&lt;/li>
+&lt;li>Created caching mechanism for improved performance&lt;/li>
+&lt;/ul>
+&lt;h3 id="ai-fortune-generation">
+&lt;a class="header-anchor" href="#ai-fortune-generation">&lt;/a>
+AI Fortune Generation
+&lt;/h3>&lt;ul>
+&lt;li>Engineered prompt templates for consistent fortune generation&lt;/li>
+&lt;li>Implemented context-aware fortune creation based on image content&lt;/li>
+&lt;li>Developed filtering system for appropriate content&lt;/li>
+&lt;/ul>
+&lt;h3 id="user-interface">
+&lt;a class="header-anchor" href="#user-interface">&lt;/a>
+User Interface
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Interactive Elements:&lt;/strong>&lt;/p></description></item></channel></rss>

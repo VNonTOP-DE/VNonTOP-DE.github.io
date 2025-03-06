@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python on Nguyen Hoang Tuan - Data Engineer</title><link>https://vnontop-de.github.io/tags/python/</link><description>Recent content in Python on Nguyen Hoang Tuan - Data Engineer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 10 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://vnontop-de.github.io/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Automated Pixiv Artwork Scraper</title><link>https://vnontop-de.github.io/post/pixiv-scraper/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://vnontop-de.github.io/post/pixiv-scraper/</guid><description>&lt;h2 id="project-overview">
+&lt;a class="header-anchor" href="#project-overview">&lt;/a>
+Project Overview
+&lt;/h2>&lt;p>This project implements an automated artwork scraping system for Pixiv, combining Selenium for dynamic content rendering and Scrapy for efficient data extraction. The system intelligently navigates through artwork recommendations and downloads images while respecting the platform&amp;rsquo;s rate limits.&lt;/p>
+&lt;p>&lt;strong>Goal:&lt;/strong> Create a robust automated system to collect and archive high-quality artwork while handling dynamic content loading and maintaining platform-friendly access patterns.&lt;/p>
+&lt;h2 id="technologies-used">
+&lt;a class="header-anchor" href="#technologies-used">&lt;/a>
+Technologies Used
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Web Automation:&lt;/strong> Selenium WebDriver&lt;/li>
+&lt;li>&lt;strong>Scraping Framework:&lt;/strong> Scrapy&lt;/li>
+&lt;li>&lt;strong>Browser:&lt;/strong> Chrome (Headless mode)&lt;/li>
+&lt;li>&lt;strong>Programming:&lt;/strong> Python&lt;/li>
+&lt;li>&lt;strong>Logging:&lt;/strong> Custom logging system&lt;/li>
+&lt;/ul>
+&lt;h2 id="key-features">
+&lt;a class="header-anchor" href="#key-features">&lt;/a>
+Key Features
+&lt;/h2>&lt;ul>
+&lt;li>✅ Automated navigation through artwork recommendations&lt;/li>
+&lt;li>✅ Smart image format detection (JPG/PNG)&lt;/li>
+&lt;li>✅ Robust retry mechanism for failed downloads&lt;/li>
+&lt;li>✅ Rate limiting and delay implementation&lt;/li>
+&lt;li>✅ Comprehensive error handling and logging&lt;/li>
+&lt;/ul>
+&lt;h2 id="implementation-details">
+&lt;a class="header-anchor" href="#implementation-details">&lt;/a>
+Implementation Details
+&lt;/h2>&lt;h3 id="scraping-architecture">
+&lt;a class="header-anchor" href="#scraping-architecture">&lt;/a>
+Scraping Architecture
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Hybrid Approach:&lt;/strong>
+&lt;ul>
+&lt;li>Selenium for JavaScript rendering&lt;/li>
+&lt;li>Scrapy for efficient data extraction&lt;/li>
+&lt;li>Custom middleware integration&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="download-management">
+&lt;a class="header-anchor" href="#download-management">&lt;/a>
+Download Management
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Smart Download System:&lt;/strong>
+&lt;ul>
+&lt;li>Multiple format attempt (JPG/PNG)&lt;/li>
+&lt;li>Content-type verification&lt;/li>
+&lt;li>Partial download detection&lt;/li>
+&lt;li>Automated retry mechanism&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="error-handling">
+&lt;a class="header-anchor" href="#error-handling">&lt;/a>
+Error Handling
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Robust Recovery:&lt;/strong>
+&lt;ul>
+&lt;li>Multiple retry attempts&lt;/li>
+&lt;li>Format fallback system&lt;/li>
+&lt;li>Comprehensive logging&lt;/li>
+&lt;li>Connection error handling&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="results--impact">
+&lt;a class="header-anchor" href="#results--impact">&lt;/a>
+Results &amp;amp; Impact
+&lt;/h2>&lt;h3 id="key-achievements">
+&lt;a class="header-anchor" href="#key-achievements">&lt;/a>
+Key Achievements
+&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Performance:&lt;/strong>&lt;/p></description></item><item><title>MyAnimeList Data Engineering Pipeline</title><link>https://vnontop-de.github.io/post/anime-web-scraping/</link><pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate><guid>https://vnontop-de.github.io/post/anime-web-scraping/</guid><description>&lt;h2 id="project-overview">
+&lt;a class="header-anchor" href="#project-overview">&lt;/a>
+Project Overview
+&lt;/h2>&lt;p>This project implements a comprehensive data engineering pipeline that extracts, transforms, and loads (ETL) detailed information about the top 4,400 anime from MyAnimeList.net. The system uses advanced web scraping techniques to collect rich metadata and stores it in Snowflake data warehouse for efficient querying and in-depth analysis. The data warehouse architecture enables complex analytical queries while maintaining high performance and scalability.&lt;/p>
+&lt;p>&lt;strong>Goal:&lt;/strong> Create a robust data pipeline to collect, clean, and store comprehensive anime data while handling complex nested relationships and maintaining data integrity.&lt;/p></description></item><item><title>Election Facebook Ad Campaign Analysis: Trump vs. Harris</title><link>https://vnontop-de.github.io/post/election-ad-analysis/</link><pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate><guid>https://vnontop-de.github.io/post/election-ad-analysis/</guid><description>&lt;h2 id="project-overview">
+&lt;a class="header-anchor" href="#project-overview">&lt;/a>
+Project Overview
+&lt;/h2>&lt;p>This project analyzes the advertising strategies employed by Donald Trump and Kamala Harris during the 2024 U.S. presidential campaign using data from the Facebook Ad Library. By focusing on six key flipped states—Michigan, Nevada, Georgia, Pennsylvania, Wisconsin, and Arizona—the study identifies patterns in ad spend, impressions, and audience engagement.&lt;/p>
+&lt;p>&lt;strong>Goal:&lt;/strong> Evaluating advertising campaign performance and analyzing demographic targeting differences between Trump and Harris campaigns to understand their relative effectiveness.&lt;/p></description></item><item><title>NASA APOD Fortune Teller</title><link>https://vnontop-de.github.io/post/nasa-fortune-teller/</link><pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate><guid>https://vnontop-de.github.io/post/nasa-fortune-teller/</guid><description>&lt;h2 id="project-overview">
+&lt;a class="header-anchor" href="#project-overview">&lt;/a>
+Project Overview
+&lt;/h2>&lt;p>The NASA APOD Fortune Teller is an interactive application that combines NASA&amp;rsquo;s Astronomy Picture of the Day (APOD) with AI-powered fortune generation. This unique project merges astronomical imagery with predictive analytics to create personalized celestial readings for users.&lt;/p>
+&lt;p>&lt;strong>Goal:&lt;/strong> Create an engaging platform that makes astronomy accessible while providing entertaining AI-generated fortunes based on daily space imagery.&lt;/p>
+&lt;h2 id="technologies-used">
+&lt;a class="header-anchor" href="#technologies-used">&lt;/a>
+Technologies Used
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Frontend:&lt;/strong> Streamlit&lt;/li>
+&lt;li>&lt;strong>Backend:&lt;/strong> Python&lt;/li>
+&lt;li>&lt;strong>APIs:&lt;/strong>
+&lt;ul>
+&lt;li>NASA APOD API&lt;/li>
+&lt;li>OpenAI API&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Cloud:&lt;/strong> Streamlit Cloud&lt;/li>
+&lt;/ul>
+&lt;h2 id="key-features">
+&lt;a class="header-anchor" href="#key-features">&lt;/a>
+Key Features
+&lt;/h2>&lt;ul>
+&lt;li>✅ Daily fetch of NASA&amp;rsquo;s Astronomy Picture of the Day&lt;/li>
+&lt;li>✅ AI-powered fortune generation based on astronomical imagery&lt;/li>
+&lt;li>✅ Interactive user interface with Streamlit widgets&lt;/li>
+&lt;li>✅ PDF generation for fortune sharing&lt;/li>
+&lt;li>✅ Cloud-based deployment for global access&lt;/li>
+&lt;/ul>
+&lt;h2 id="implementation-details">
+&lt;a class="header-anchor" href="#implementation-details">&lt;/a>
+Implementation Details
+&lt;/h2>&lt;h3 id="api-integration">
+&lt;a class="header-anchor" href="#api-integration">&lt;/a>
+API Integration
+&lt;/h3>&lt;ul>
+&lt;li>Implemented secure API authentication for NASA and OpenAI services&lt;/li>
+&lt;li>Developed robust error handling for API requests&lt;/li>
+&lt;li>Created caching mechanism for improved performance&lt;/li>
+&lt;/ul>
+&lt;h3 id="ai-fortune-generation">
+&lt;a class="header-anchor" href="#ai-fortune-generation">&lt;/a>
+AI Fortune Generation
+&lt;/h3>&lt;ul>
+&lt;li>Engineered prompt templates for consistent fortune generation&lt;/li>
+&lt;li>Implemented context-aware fortune creation based on image content&lt;/li>
+&lt;li>Developed filtering system for appropriate content&lt;/li>
+&lt;/ul>
+&lt;h3 id="user-interface">
+&lt;a class="header-anchor" href="#user-interface">&lt;/a>
+User Interface
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Interactive Elements:&lt;/strong>&lt;/p></description></item></channel></rss>
