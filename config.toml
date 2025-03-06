@@ -2,14 +2,28 @@ languageCode = "en-US"
 defaultContentLanguage = "en-US"
 theme = "hugo-theme-reimu"
 baseURL = "https://vnontop-de.github.io/"
+title = "Nguyen Hoang Tuan - Data Engineer"
 publishDir = "public"
+
+[params]
+description = "Data Engineering Portfolio"
+author = "Nguyen Hoang Tuan"
+avatar = "/avatar/tsukasa.webp"
+subtitle = "Data Engineering Portfolio"
+
+[params.seo]
+description = "Data Engineer Portfolio showcasing expertise in ETL, data pipelines, and cloud infrastructure"
+keywords = ["data engineer", "ETL", "data pipelines", "cloud infrastructure", "your name"]
+
 [languages]
-  [languages.en-US]
-    languageName = "English"
-    weight = 1
+[languages.en-US]
+languageName = "English"
+weight = 1
 
 [module]
-  [module.hugoVersion]
-    extended = true
-    min = "0.116.0"
-  imports = [{path = "hugo-theme-reimu"}]
+[module.hugoVersion]
+extended = true
+min = "0.116.0"
+
+[[module.imports]]
+path = "hugo-theme-reimu"

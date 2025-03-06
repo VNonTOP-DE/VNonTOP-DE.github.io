@@ -1,4 +1,6 @@
 ---
-title: "Home"
+title: "Nguyen Hoang Tuan - Data Engineer"
 ---
-Welcome to my site!
+
+Welcome to my Data Engineering portfolio! 
+
