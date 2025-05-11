@@ -16,13 +16,113 @@ That's why I'm so pumped to apply for this fresher data engineer position. I mig
 
 
 ## Technical Skills
-Knowledge of :
-- **Data Processing**: Apache Spark, Apache Kafka
-- **Cloud Platforms**: AWS
-- **Programming**: Python, SQL, Scala
-- **ETL Tools**: Apache Airflow
-- **Databases**: PostgreSQL
-- **Web Scraping & APIs**: Scrapy for structured web data extraction
+
+### Databases
+
+#### Structured Data
+
+**PostgreSQL**
+- Designed and optimized relational schemas with proper normalization (3NF)
+- Implemented table partitioning (RANGE, LIST, HASH) for large datasets
+- Created advanced indexes (B-tree, GIN, BRIN) to optimize query performance
+
+#### Semi-structured Data
+
+**Graph Database (Passion)**
+- Designed comprehensive data models with graph structures, including nodes, relationships, testing, and refactoring
+- Optimized query performance using intermediate nodes and specific relationships
+- Added flexible labels to adapt to various purposes and use cases
+
+**MongoDB**
+- Designed document schemas with optimal embedding and referencing strategies
+- Implemented sharding for horizontal scaling using hashed and ranged shard keys
+- Configured replica sets for high availability with automatic failover
+
+**Snowflake**
+- Designed schemas combining structured tables and VARIANT columns for semi-structured data
+- Implemented zero-copy cloning for efficient testing environments
+- Configured automatic clustering for large JSON datasets
+- Processed semi-structured data using LATERAL FLATTEN, PARSE_JSON, and dot notation
+- Built continuous data pipelines with Snowpipe
+- Transformed JSON data using JavaScript UDFs
+
+#### Unstructured Data
+- Stored in S3 with lifecycle policies for efficient management
+- Extracted text using AWS Textract and Tesseract
+- Indexed in Elasticsearch with metadata tagging for searchability
+- Processed via Spark on EMR for binary decoding
+- Stored parsed data in Parquet format and raw data in S3
+
+### ETL Processes
+
+#### Extract
+
+**Scrapy (Proficient)**
+- Built Crawl Spiders for rule-based scraping, handling pagination and category traversal
+- Created API Scrapers to extract JSON data from XHR requests
+- Designed Recursive Crawlers for deep website traversal
+- Wrote custom pipelines for deduplication (hash-based filtering), data validation (checking missing fields), and exporting to CSV, JSON, and databases
+- Implemented anti-scraping techniques: User-Agent rotation, proxies, request throttling (AutoThrottle), and CAPTCHA handling with 2CAPTCHA
+
+#### Transform
+
+**PySpark (Proficient)**
+
+*Spark Core (RDD)*
+- Set up RDDs and imported big data from various sources (text, key-value, lists)
+- Applied transformations using map, reduce, and other lambda functions
+- Used UDFs in Python/Scala for custom logic
+- Handled millions of rows for data cleaning, checking for missing fields (name, age, email), invalid ages (<0 or >120), and malformed emails
+
+*SparkSQL*
+- Set up dataframes with complex nested schemas
+- Applied SQL queries for data analysis (count, tokenize, average)
+- Cleaned and filtered messy date data
+
+#### Load
+
+**Apache Spark for Batch Processing (Proficient)**
+- Read from diverse sources (e.g., Parquet, JDBC) with commands like df = spark.read.format("parquet").load("s3://path")
+- Handled schema inference and manual schema definition
+- Processed terabyte-scale datasets with partitioning (repartition, coalesce)
+
+**Apache Kafka**
+- Set up producers with high throughput (100K+ messages/sec) by tuning batch.size and linger.ms
+- Used formats like Avro (with Schema Registry), JSON, and Protobuf
+- Configured consumer groups for parallel processing with exactly-once semantics
+- Managed replication (3x replica factor) and partitioning (100+ partitions) for high availability and scalability
+- Monitored lag (consumer offsets) and broker metrics (JMX/Prometheus)
+
+### Orchestration
+
+**Apache Airflow (Proficient)**
+
+*Workflow Design*
+- Built DAGs with Python to manage task sequences
+- Defined task dependencies using >> (e.g., extract_task >> transform_task >> load_task)
+- Used dynamic DAG generation for parameterized workflows
+
+*Operators & Integrations*
+- Utilized BashOperator (shell commands), PythonOperator (Python functions), KubernetesPodOperator (containers), and Sensors (external conditions)
+
+*Key Features*
+- Configured retries (e.g., retries=3) and Slack alerts on failure
+- Performed backfilling for historical data reprocessing
+- Used XComs to share data between tasks
+
+### AI for Automation
+
+**N8n**
+- Built end-to-end automations using over 300 pre-built nodes
+  - Trigger Nodes: Webhooks, Cron, Email, Telegram
+  - Action Nodes: HTTP Requests, SQL Queries, Slack/Teams notifications
+  - Logic Nodes: IF/Switch conditions, Merge, Wait
+- Integrations
+  - Connected to databases (PostgreSQL, MongoDB)
+  - Automated SaaS tools (HubSpot, Salesforce)
+  - Processed files with S3 and Google Drive
+
+
  
 
 ## Education
