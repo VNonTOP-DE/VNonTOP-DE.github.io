@@ -71,9 +71,9 @@ This project analyzes the advertising strategies employed by Donald Trump and Ka
 
 ## Resources
 
-- 🔗 [GitHub Repository](https://github.com/VNonTOP-DE/AD-Tech-Analytic-Project/blob/0083ac2ddb93681ff80dab92469d8988a3f7c0e0/Clean%20Data%20Code)
-- 📊 [Interactive Dashboard](https://github.com/VNonTOP-DE/AD-Tech-Analytic-Project/commit/0d55a2dd0e3010e2b44c33ba734d72624b9897a3)
-- 📝 [Technical Documentation](https://github.com/VNonTOP-DE/AD-Tech-Analytic-Project/commit/52a39028919219ecd9661f16623450fa523121b8)
+- 🔗 [GitHub Repository](https://github.com/VNonTOP-DE/AD-Tech-Analytic-Project)
+- 📊 [Interactive Dashboard](https://github.com/VNonTOP-DE/AD-Tech-Analytic-Project/blob/main/AD-Tech-Analytic-Project-DashBoard.pbix)
+
 
 ---
 
