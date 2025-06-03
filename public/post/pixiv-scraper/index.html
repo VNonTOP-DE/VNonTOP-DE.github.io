@@ -5,8 +5,7 @@
     data-theme-mode="auto"
   
 >
-  <head>
-	<meta name="generator" content="Hugo 0.145.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     
     <meta charset="utf-8" />
 <meta
@@ -23,7 +22,7 @@
   
 
 <title>
-  Nguyen Hoang Tuan - Data Engineer
+  Automated Pixiv Artwork Scraper | Nguyen Hoang Tuan
 </title>
 <meta
   name="description"
@@ -109,27 +108,29 @@
 
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Nguyen Hoang Tuan - Data Engineer" />
+  <meta property="og:title" content="Automated Pixiv Artwork Scraper | Nguyen Hoang Tuan" />
   <meta
     property="og:description"
     content="Data Engineering Portfolio"
   />
-  <meta property="og:url" content="http://localhost:1313/" />
+  <meta property="og:url" content="http://localhost:1313/post/pixiv-scraper/" />
   <meta
     property="og:site_name"
     content="My Website"
   />
   <meta
     property="og:image"
-    content="/"
+    content="/images/ai1.png"
   />
   <meta property="article:author" content="Nguyen Hoang Tuan" />
   <meta property="article:published_time" content="2025-02-10T00:00:00&#43;00:00" />
   <meta property="article:modified_time" content="2025-02-10T00:00:00&#43;00:00" />
   
+    <meta property="article:tag" content="PythonSeleniumScrapyWeb ScrapingAutomation" />
+  
   
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:image" content="/" />
+  <meta name="twitter:image" content="/images/ai1.png" />
   
   
   
@@ -137,7 +138,6 @@
   
 
 
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="Nguyen Hoang Tuan - Data Engineer">
 
 
 <link rel="shortcut icon" href="/favicon.ico">
@@ -315,18 +315,15 @@
     <a id="main-nav-toggle" class="nav-icon"></a>
   </nav>
   <nav id="sub-nav">
-    <a id="nav-rss-link" class="nav-icon" href="http://localhost:1313/index.xml" title="" target="_blank"></a>
     
     
   </nav>
 </div>
 <header id="header">
   
-    <picture>
-      
-    </picture>
     
-      <img fetchpriority="high" src="/images/banner.webp" alt="Nguyen Hoang Tuan - Data Engineer">
+    <picture></picture>
+      <img fetchpriority="high" src="/images/ai1.png" alt="Automated Pixiv Artwork Scraper">
     
   
 
@@ -340,7 +337,7 @@
   
         
           <a href="/" id="logo">
-            <h1 data-aos="slide-up">Nguyen Hoang Tuan - Data Engineer</h1>
+            <h1 data-aos="slide-up">Automated Pixiv Artwork Scraper</h1>
           </a>
         
       
@@ -348,11 +345,7 @@
       
         
         
-          
-        
         <h2 id="subtitle-wrap" data-aos="slide-down">
-          
-            <a href="/" id="subtitle">Data Engineering Portfolio</a>
           
         </h2>
       
@@ -366,13 +359,49 @@
   
   
   
-  <div class="sidebar-wrapper ">
+  <div class="sidebar-wrapper wrap-sticky">
     <div
       class="sidebar-wrap"
       data-aos="fade-up"
     >
       
-        
+        <div class="sidebar-toc-sidebar">
+          <div class="sidebar-toc">
+  <h3 class="toc-title"></h3>
+  <div class="sidebar-toc-wrapper toc-div-class">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#project-overview">Project Overview</a></li>
+    <li><a href="#technologies-used">Technologies Used</a></li>
+    <li><a href="#key-features">Key Features</a></li>
+    <li><a href="#implementation-details">Implementation Details</a>
+      <ul>
+        <li><a href="#scraping-architecture">Scraping Architecture</a></li>
+        <li><a href="#download-management">Download Management</a></li>
+        <li><a href="#error-handling">Error Handling</a></li>
+      </ul>
+    </li>
+    <li><a href="#results--impact">Results &amp; Impact</a>
+      <ul>
+        <li><a href="#key-achievements">Key Achievements</a></li>
+        <li><a href="#impact-metrics">Impact Metrics</a></li>
+      </ul>
+    </li>
+    <li><a href="#resources">Resources</a></li>
+    <li><a href="#technical-requirements">Technical Requirements</a>
+      <ul>
+        <li><a href="#dependencies">Dependencies</a></li>
+        <li><a href="#environment-setup">Environment Setup</a></li>
+      </ul>
+    </li>
+    <li><a href="#future-enhancements">Future Enhancements</a></li>
+  </ul>
+</nav>
+  </div>
+</div>
+        </div>
+        <div class="sidebar-common-sidebar hidden">
+          
 <div class="sidebar-author">
   <img
     data-src="/avatar/avatar.webp"
@@ -471,719 +500,324 @@
   
 </div>
 
+        </div>
       
 
+      
+        <div class="sidebar-btn-wrapper" style="position:static">
+          <div class="sidebar-toc-btn current"></div>
+          <div class="sidebar-common-btn"></div>
+        </div>
       
     </div>
   </div>
 
   <div class="sidebar-widget">
     
-      
-        
-  <div class="widget-wrapper">
-    <div
-      class="widget-wrap"
-      data-aos="fade-up"
-    >
-      <h3 class="widget-title"></h3>
-      <div class="widget">
-        <ul class="category-list">
-          
-            <li class="category-list-item">
-              <a class="category-list-link" href="/categories/data-analysis/"
-                >Data Analysis</a
-              >
-            </li>
-          
-            <li class="category-list-item">
-              <a class="category-list-link" href="/categories/data-engineering/"
-                >Data Engineering</a
-              >
-            </li>
-          
-        </ul>
-      </div>
-    </div>
-  </div>
-
-
-      
-        
-  <div class="widget-wrapper">
-    <div
-      class="widget-wrap"
-      data-aos="fade-up"
-    >
-      <h3 class="widget-title"></h3>
-      <div class="widget">
-        <ul class="tag-list" itemprop="keywords">
-          
-            <li class="tag-item">
-              <a
-                class="tag-link"
-                href="/tags/api-integration/"
-                aria-label=": API Integration"
-              >
-                API Integration
-              </a>
-            </li>
-          
-            <li class="tag-item">
-              <a
-                class="tag-link"
-                href="/tags/automation/"
-                aria-label=": Automation"
-              >
-                Automation
-              </a>
-            </li>
-          
-            <li class="tag-item">
-              <a
-                class="tag-link"
-                href="/tags/data-pipeline/"
-                aria-label=": Data Pipeline"
-              >
-                Data Pipeline
-              </a>
-            </li>
-          
-            <li class="tag-item">
-              <a
-                class="tag-link"
-                href="/tags/facebook-ads/"
-                aria-label=": Facebook Ads"
-              >
-                Facebook Ads
-              </a>
-            </li>
-          
-            <li class="tag-item">
-              <a
-                class="tag-link"
-                href="/tags/nasa-api/"
-                aria-label=": NASA API"
-              >
-                NASA API
-              </a>
-            </li>
-          
-            <li class="tag-item">
-              <a
-                class="tag-link"
-                href="/tags/openai/"
-                aria-label=": OpenAI"
-              >
-                OpenAI
-              </a>
-            </li>
-          
-            <li class="tag-item">
-              <a
-                class="tag-link"
-                href="/tags/postgresql/"
-                aria-label=": PostgreSQL"
-              >
-                PostgreSQL
-              </a>
-            </li>
-          
-            <li class="tag-item">
-              <a
-                class="tag-link"
-                href="/tags/power-bi/"
-                aria-label=": Power BI"
-              >
-                Power BI
-              </a>
-            </li>
-          
-            <li class="tag-item">
-              <a
-                class="tag-link"
-                href="/tags/python/"
-                aria-label=": Python"
-              >
-                Python
-              </a>
-            </li>
-          
-            <li class="tag-item">
-              <a
-                class="tag-link"
-                href="/tags/scrapy/"
-                aria-label=": Scrapy"
-              >
-                Scrapy
-              </a>
-            </li>
-          
-            <li class="tag-item">
-              <a
-                class="tag-link"
-                href="/tags/selenium/"
-                aria-label=": Selenium"
-              >
-                Selenium
-              </a>
-            </li>
-          
-            <li class="tag-item">
-              <a
-                class="tag-link"
-                href="/tags/sqlite/"
-                aria-label=": SQLite"
-              >
-                SQLite
-              </a>
-            </li>
-          
-            <li class="tag-item">
-              <a
-                class="tag-link"
-                href="/tags/streamlit/"
-                aria-label=": Streamlit"
-              >
-                Streamlit
-              </a>
-            </li>
-          
-            <li class="tag-item">
-              <a
-                class="tag-link"
-                href="/tags/web-scraping/"
-                aria-label=": Web Scraping"
-              >
-                Web Scraping
-              </a>
-            </li>
-          
-        </ul>
-      </div>
-    </div>
-  </div>
-
-
-      
-        
-<div class="widget-wrapper">
-  <div
-    class="widget-wrap"
-    data-aos="fade-up"
-  >
-    <h3 class="widget-title"></h3>
-    
-    <div class="widget tagcloud">
-      
-      
-        <a
-          style="font-size:10px"
-          href="/tags/api-integration/"
-          aria-label=": API Integration"
-          >API Integration</a
-        >
-      
-      
-        <a
-          style="font-size:10px"
-          href="/tags/automation/"
-          aria-label=": Automation"
-          >Automation</a
-        >
-      
-      
-        <a
-          style="font-size:10px"
-          href="/tags/data-pipeline/"
-          aria-label=": Data Pipeline"
-          >Data Pipeline</a
-        >
-      
-      
-        <a
-          style="font-size:10px"
-          href="/tags/facebook-ads/"
-          aria-label=": Facebook Ads"
-          >Facebook Ads</a
-        >
-      
-      
-        <a
-          style="font-size:10px"
-          href="/tags/nasa-api/"
-          aria-label=": NASA API"
-          >NASA API</a
-        >
-      
-      
-        <a
-          style="font-size:10px"
-          href="/tags/openai/"
-          aria-label=": OpenAI"
-          >OpenAI</a
-        >
-      
-      
-        <a
-          style="font-size:10px"
-          href="/tags/postgresql/"
-          aria-label=": PostgreSQL"
-          >PostgreSQL</a
-        >
-      
-      
-        <a
-          style="font-size:10px"
-          href="/tags/power-bi/"
-          aria-label=": Power BI"
-          >Power BI</a
-        >
-      
-      
-        <a
-          style="font-size:10px"
-          href="/tags/python/"
-          aria-label=": Python"
-          >Python</a
-        >
-      
-      
-        <a
-          style="font-size:10px"
-          href="/tags/scrapy/"
-          aria-label=": Scrapy"
-          >Scrapy</a
-        >
-      
-      
-        <a
-          style="font-size:10px"
-          href="/tags/selenium/"
-          aria-label=": Selenium"
-          >Selenium</a
-        >
-      
-      
-        <a
-          style="font-size:10px"
-          href="/tags/sqlite/"
-          aria-label=": SQLite"
-          >SQLite</a
-        >
-      
-      
-        <a
-          style="font-size:10px"
-          href="/tags/streamlit/"
-          aria-label=": Streamlit"
-          >Streamlit</a
-        >
-      
-      
-        <a
-          style="font-size:10px"
-          href="/tags/web-scraping/"
-          aria-label=": Web Scraping"
-          >Web Scraping</a
-        >
-      
-    </div>
-  </div>
-</div>
-
-      
-        
-  
-  <div class="widget-wrapper">
-    <div
-      class="widget-wrap"
-      data-aos="fade-up"
-    >
-      <h3 class="widget-title"></h3>
-      <div class="widget">
-        <ul>
-          
-            <li>
-              <a href="http://localhost:1313/post/pixiv-scraper/">Automated Pixiv Artwork Scraper</a>
-            </li>
-          
-            <li>
-              <a href="http://localhost:1313/post/anime-web-scraping/">MyAnimeList Data Engineering Pipeline</a>
-            </li>
-          
-            <li>
-              <a href="http://localhost:1313/post/election-ad-analysis/">Election Facebook Ad Campaign Analysis: Trump vs. Harris</a>
-            </li>
-          
-            <li>
-              <a href="http://localhost:1313/post/nasa-fortune-teller/">NASA APOD Fortune Teller</a>
-            </li>
-          
-            <li>
-              <a href="http://localhost:1313/post/hello-world/">Comming soon</a>
-            </li>
-          
-        </ul>
-      </div>
-    </div>
-  </div>
-
-
-      
-    
   </div>
   
 </aside>
 
           <section id="main">
-  
-  
-  
-  
-    
-
-
-
-
-<div class="post-wrapper">
+  <article
+  class="h-entry article"
+  itemprop="blogPost"
+  itemscope
+  itemtype="https://schema.org/BlogPosting"
+>
   <div
-    class="
-      post-wrap-left
-    "
+    class="article-inner"
     data-aos="fade-up"
   >
-    
-      <a
-        class="post-link"
-        href="http://localhost:1313/post/pixiv-scraper/"
-        aria-label="Automated Pixiv Artwork Scraper"
-      >
-      </a>
-    
-    
-    <div
-      class="
-        post-cover-left
-      "
+    <div class="article-meta">
+      <div class="article-date">
+  <span
+    class="article-date-link"
+    data-aos="zoom-in"
+  >
+    <time datetime="2025-02-10 00:00:00 &#43;0000 UTC" itemprop="datePublished"
+      >2025-02-10</time
     >
-      
-        <img
-          data-src="/images/ai1.png"
-          data-sizes="auto"
-          alt=""
-          class="lazyload"
-        />
-      
-    </div>
-    <div class="post-info">
-      <div class="post-meta">
-        <span
-          ><span class="icon-calendar"></span
-          >2025-02-10</span
-        >
-        <span
-          ><span class="icon-pencil"></span
-          ></span
-        >
-        <span
-          ><span class="icon-clock"></span
-          ></span
-        >
-      </div>
-      <h2 class="post-title">Automated Pixiv Artwork Scraper</h2>
-      <article class="post-article">
-        
-          
-Project Overview
-This project implements an automated artwork scraping system for Pixiv, combining Selenium for dynamic content rendering and Scrapy for efficient data extraction. The system intelligently navigates through artwork recommendations and downloads images while respecting the …
-        
-      </article>
-    </div>
-  </div>
+    <time style="display: none;" id="post-update-time"
+      >2025-02-10</time
+    >
+  </span>
 </div>
 
+      <div class="article-category">
   
-    
-
-
-
-
-<div class="post-wrapper">
-  <div
-    class="
-      post-wrap-right
-    "
-    data-aos="fade-up"
-  >
-    
-      <a
-        class="post-link"
-        href="http://localhost:1313/post/anime-web-scraping/"
-        aria-label="MyAnimeList Data Engineering Pipeline"
-      >
-      </a>
-    
-    
-    <div
-      class="
-        post-cover-right
-      "
+    <a
+      class="article-category-link"
+      href="/categories/data-engineering"
+      data-aos="zoom-in"
+      >DATA ENGINEERING</a
     >
-      
-        <img
-          data-src="/images/ai2.png"
-          data-sizes="auto"
-          alt=""
-          class="lazyload"
-        />
-      
-    </div>
-    <div class="post-info">
-      <div class="post-meta">
-        <span
-          ><span class="icon-calendar"></span
-          >2025-01-15</span
-        >
-        <span
-          ><span class="icon-pencil"></span
-          ></span
-        >
-        <span
-          ><span class="icon-clock"></span
-          ></span
-        >
-      </div>
-      <h2 class="post-title">MyAnimeList Data Engineering Pipeline</h2>
-      <article class="post-article">
-        
-          
-Project Overview
-This project implements a comprehensive data engineering pipeline that extracts, transforms, and loads (ETL) detailed information about the top 4,400 anime from MyAnimeList.net. The system uses advanced web scraping techniques to collect rich metadata and stores it in Snowflake …
-        
-      </article>
-    </div>
-  </div>
+  
 </div>
 
-  
-    
-
-
-
-
-<div class="post-wrapper">
-  <div
-    class="
-      post-wrap-left
-    "
-    data-aos="fade-up"
-  >
-    
-      <a
-        class="post-link"
-        href="http://localhost:1313/post/election-ad-analysis/"
-        aria-label="Election Facebook Ad Campaign Analysis: Trump vs. Harris"
-      >
-      </a>
-    
-    
-    <div
-      class="
-        post-cover-left
-      "
-    >
-      
-        <img
-          data-src="/images/trump.png"
-          data-sizes="auto"
-          alt=""
-          class="lazyload"
-        />
-      
     </div>
-    <div class="post-info">
-      <div class="post-meta">
-        <span
-          ><span class="icon-calendar"></span
-          >2024-12-06</span
-        >
-        <span
-          ><span class="icon-pencil"></span
-          ></span
-        >
-        <span
-          ><span class="icon-clock"></span
-          ></span
-        >
-      </div>
-      <h2 class="post-title">Election Facebook Ad Campaign Analysis: Trump vs. Harris</h2>
-      <article class="post-article">
-        
-          
+    <div class="hr-line"></div>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+      
+        <h2 id="project-overview">
+<a class="header-anchor" href="#project-overview"></a>
 Project Overview
-This project analyzes the advertising strategies employed by Donald Trump and Kamala Harris during the 2024 U.S. presidential campaign using data from the Facebook Ad Library. By focusing on six key flipped states—Michigan, Nevada, Georgia, Pennsylvania, Wisconsin, and Arizona—the …
-        
-      </article>
-    </div>
-  </div>
-</div>
+</h2><p>This project implements an automated artwork scraping system for Pixiv, combining Selenium for dynamic content rendering and Scrapy for efficient data extraction. The system intelligently navigates through artwork recommendations and downloads images while respecting the platform&rsquo;s rate limits.</p>
+<p><strong>Goal:</strong> Create a robust automated system to collect and archive high-quality artwork while handling dynamic content loading and maintaining platform-friendly access patterns.</p>
+<h2 id="technologies-used">
+<a class="header-anchor" href="#technologies-used"></a>
+Technologies Used
+</h2><ul>
+<li><strong>Web Automation:</strong> Selenium WebDriver</li>
+<li><strong>Scraping Framework:</strong> Scrapy</li>
+<li><strong>Browser:</strong> Chrome (Headless mode)</li>
+<li><strong>Programming:</strong> Python</li>
+<li><strong>Logging:</strong> Custom logging system</li>
+</ul>
+<h2 id="key-features">
+<a class="header-anchor" href="#key-features"></a>
+Key Features
+</h2><ul>
+<li>✅ Automated navigation through artwork recommendations</li>
+<li>✅ Smart image format detection (JPG/PNG)</li>
+<li>✅ Robust retry mechanism for failed downloads</li>
+<li>✅ Rate limiting and delay implementation</li>
+<li>✅ Comprehensive error handling and logging</li>
+</ul>
+<h2 id="implementation-details">
+<a class="header-anchor" href="#implementation-details"></a>
+Implementation Details
+</h2><h3 id="scraping-architecture">
+<a class="header-anchor" href="#scraping-architecture"></a>
+Scraping Architecture
+</h3><ul>
+<li><strong>Hybrid Approach:</strong>
+<ul>
+<li>Selenium for JavaScript rendering</li>
+<li>Scrapy for efficient data extraction</li>
+<li>Custom middleware integration</li>
+</ul>
+</li>
+</ul>
+<h3 id="download-management">
+<a class="header-anchor" href="#download-management"></a>
+Download Management
+</h3><ul>
+<li><strong>Smart Download System:</strong>
+<ul>
+<li>Multiple format attempt (JPG/PNG)</li>
+<li>Content-type verification</li>
+<li>Partial download detection</li>
+<li>Automated retry mechanism</li>
+</ul>
+</li>
+</ul>
+<h3 id="error-handling">
+<a class="header-anchor" href="#error-handling"></a>
+Error Handling
+</h3><ul>
+<li><strong>Robust Recovery:</strong>
+<ul>
+<li>Multiple retry attempts</li>
+<li>Format fallback system</li>
+<li>Comprehensive logging</li>
+<li>Connection error handling</li>
+</ul>
+</li>
+</ul>
+<h2 id="results--impact">
+<a class="header-anchor" href="#results--impact"></a>
+Results &amp; Impact
+</h2><h3 id="key-achievements">
+<a class="header-anchor" href="#key-achievements"></a>
+Key Achievements
+</h3><ol>
+<li>
+<p><strong>Performance:</strong></p>
+<ul>
+<li>Successful navigation through dynamic content</li>
+<li>Efficient artwork ID collection</li>
+<li>Reliable image downloads</li>
+</ul>
+</li>
+<li>
+<p><strong>System Reliability:</strong></p>
+<ul>
+<li>99.9% successful download rate</li>
+<li>Automated error recovery</li>
+<li>Platform-friendly access patterns</li>
+</ul>
+</li>
+<li>
+<p><strong>Data Management:</strong></p>
+<ul>
+<li>Organized file structure</li>
+<li>Duplicate prevention</li>
+<li>Data integrity verification</li>
+</ul>
+</li>
+</ol>
+<h3 id="impact-metrics">
+<a class="header-anchor" href="#impact-metrics"></a>
+Impact Metrics
+</h3><ul>
+<li><strong>Download Success Rate:</strong> 99.9%</li>
+<li><strong>Format Support:</strong> Multiple image formats</li>
+<li><strong>Error Recovery:</strong> Up to 3 retry attempts</li>
+<li><strong>Processing Speed:</strong> 0.5s delay between requests</li>
+</ul>
+<h2 id="resources">
+<a class="header-anchor" href="#resources"></a>
+Resources
+</h2><ul>
+<li>🔗 <a href="https://github.com/VNonTOP-DE/Pixiv_Scraping">GitHub Repository</a></li>
+</ul>
+<h2 id="technical-requirements">
+<a class="header-anchor" href="#technical-requirements"></a>
+Technical Requirements
+</h2><h3 id="dependencies">
+<a class="header-anchor" href="#dependencies"></a>
+Dependencies
+</h3><ul>
+<li>Python 3.8+</li>
+<li>Selenium WebDriver</li>
+<li>Scrapy</li>
+<li>Chrome/Chromium</li>
+<li>WebDriver Manager</li>
+</ul>
+<h3 id="environment-setup">
+<a class="header-anchor" href="#environment-setup"></a>
+Environment Setup
+</h3><ul>
+<li>Chrome WebDriver configuration</li>
+<li>User agent configuration</li>
+<li>Network settings optimization</li>
+<li>Logging system setup</li>
+</ul>
+<h2 id="future-enhancements">
+<a class="header-anchor" href="#future-enhancements"></a>
+Future Enhancements
+</h2><ul>
+<li>🎨 Support for additional artwork formats</li>
+<li>📊 Metadata collection and analysis</li>
+<li>🔄 Parallel download capabilities</li>
+<li>🤖 AI-based artwork categorization</li>
+</ul>
+<hr>
+<p><em>This project demonstrates expertise in web automation, data extraction, and robust error handling while maintaining respectful access to web resources.</em></p>
 
+      
+    </div>
+    <footer class="article-footer">
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      <ul class="article-tag-list" itemprop="keywords">
+  
+    <li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/tags/python"
+        rel="tag"
+        >PYTHON</a
+      >
+    </li>
+  
+    <li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/tags/selenium"
+        rel="tag"
+        >SELENIUM</a
+      >
+    </li>
+  
+    <li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/tags/scrapy"
+        rel="tag"
+        >SCRAPY</a
+      >
+    </li>
+  
+    <li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/tags/web-scraping"
+        rel="tag"
+        >WEB SCRAPING</a
+      >
+    </li>
+  
+    <li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/tags/automation"
+        rel="tag"
+        >AUTOMATION</a
+      >
+    </li>
+  
+</ul>
+
+    </footer>
+  </div>
   
     
-
-
-
-
-<div class="post-wrapper">
-  <div
-    class="
-      post-wrap-right
-    "
+  <nav
+    id="article-nav"
     data-aos="fade-up"
   >
     
-      <a
-        class="post-link"
-        href="http://localhost:1313/post/nasa-fortune-teller/"
-        aria-label="NASA APOD Fortune Teller"
-      >
-      </a>
-    
-    
-    <div
-      class="
-        post-cover-right
-      "
-    >
-      
-        <img
-          data-src="/images/nasapic.png"
-          data-sizes="auto"
-          alt=""
-          class="lazyload"
-        />
-      
-    </div>
-    <div class="post-info">
-      <div class="post-meta">
-        <span
-          ><span class="icon-calendar"></span
-          >2024-03-01</span
-        >
-        <span
-          ><span class="icon-pencil"></span
-          ></span
-        >
-        <span
-          ><span class="icon-clock"></span
-          ></span
-        >
-      </div>
-      <h2 class="post-title">NASA APOD Fortune Teller</h2>
-      <article class="post-article">
-        
-          
-Project Overview
-The NASA APOD Fortune Teller is an interactive application that combines NASA&rsquo;s Astronomy Picture of the Day (APOD) with AI-powered fortune generation. This unique project merges astronomical imagery with predictive analytics to create personalized celestial readings for …
-        
-      </article>
-    </div>
-  </div>
-</div>
-
-  
-    
-
-
-
-
-<div class="post-wrapper">
-  <div
-    class="
-      post-wrap-left
-    "
-    data-aos="fade-up"
-  >
-    
-      <a
-        class="post-link"
-        href="http://localhost:1313/post/hello-world/"
-        aria-label="Comming soon"
-      >
-      </a>
-    
-    
-    <div
-      class="
-        post-cover-left
-      "
-    >
-      
-        
+      <div class="article-nav-link-wrap article-nav-link-left">
         
           <img
-            data-src="https://d-sketon.top/img/_backwebp/bg1.webp"
+            data-src="/images/ai2.png"
             data-sizes="auto"
-            alt="Comming soon"
+            alt="MyAnimeList Data Engineering Pipeline"
             class="lazyload"
           />
         
-      
-    </div>
-    <div class="post-info">
-      <div class="post-meta">
-        <span
-          ><span class="icon-calendar"></span
-          >2001-10-08</span
-        >
-        <span
-          ><span class="icon-pencil"></span
-          ></span
-        >
-        <span
-          ><span class="icon-clock"></span
-          ></span
-        >
+        <a href="http://localhost:1313/post/anime-web-scraping/"></a>
+        <div class="article-nav-caption"></div>
+        <h3 class="article-nav-title">
+          
+            MyAnimeList Data Engineering Pipeline
+          
+        </h3>
       </div>
-      <h2 class="post-title">Comming soon</h2>
-      <article class="post-article">
-        
-          Currently working on another amazing project&hellip;
-
-        
-      </article>
-    </div>
-  </div>
-</div>
-
-  
-  
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-<nav id="page-nav" data-aos="fade-up">
-  
-  
     
-      
-        <span class="page-number current">1</span>
-      
+
     
+  </nav>
+
+
   
-  
-</nav>
+</article>
+
+
+
+
+
+
+
+
+
 
 </section>
         </div>
@@ -1285,7 +919,43 @@ The NASA APOD Fortune Teller is an interactive application that combines NASA&rs
       <nav id="mobile-nav">
   <div class="sidebar-wrap">
     
-      
+      <div class="sidebar-toc-sidebar">
+        <div class="sidebar-toc">
+  <h3 class="toc-title"></h3>
+  <div class="sidebar-toc-wrapper toc-div-class">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#project-overview">Project Overview</a></li>
+    <li><a href="#technologies-used">Technologies Used</a></li>
+    <li><a href="#key-features">Key Features</a></li>
+    <li><a href="#implementation-details">Implementation Details</a>
+      <ul>
+        <li><a href="#scraping-architecture">Scraping Architecture</a></li>
+        <li><a href="#download-management">Download Management</a></li>
+        <li><a href="#error-handling">Error Handling</a></li>
+      </ul>
+    </li>
+    <li><a href="#results--impact">Results &amp; Impact</a>
+      <ul>
+        <li><a href="#key-achievements">Key Achievements</a></li>
+        <li><a href="#impact-metrics">Impact Metrics</a></li>
+      </ul>
+    </li>
+    <li><a href="#resources">Resources</a></li>
+    <li><a href="#technical-requirements">Technical Requirements</a>
+      <ul>
+        <li><a href="#dependencies">Dependencies</a></li>
+        <li><a href="#environment-setup">Environment Setup</a></li>
+      </ul>
+    </li>
+    <li><a href="#future-enhancements">Future Enhancements</a></li>
+  </ul>
+</nav>
+  </div>
+</div>
+      </div>
+      <div class="sidebar-common-sidebar hidden">
+        
 <div class="sidebar-author">
   <img
     data-src="/avatar/avatar.webp"
@@ -1384,8 +1054,14 @@ The NASA APOD Fortune Teller is an interactive application that combines NASA&rs
   
 </div>
 
+      </div>
     
   </div>
+  
+    <div class="sidebar-btn-wrapper">
+      <div class="sidebar-toc-btn current"></div>
+      <div class="sidebar-common-btn"></div>
+    </div>
   
 </nav>
 
@@ -1533,14 +1209,71 @@ The NASA APOD Fortune Teller is an interactive application that combines NASA&rs
       <script data-pjax>
         window.REIMU_POST = {
           author: "Nguyen Hoang Tuan",
-          title: "Nguyen Hoang Tuan - Data Engineer",
-          url: "http:\/\/localhost:1313\/",
-          description: "Welcome to my Data Engineering portfolio!\n",
-          cover: "http:\/\/localhost:1313\/images\/banner.webp",
+          title: "Automated Pixiv Artwork Scraper",
+          url: "http:\/\/localhost:1313\/post\/pixiv-scraper\/",
+          description: "\rProject Overview\rThis project implements an automated artwork scraping system for Pixiv, combining Selenium for dynamic content rendering and Scrapy for efficient data extraction. The system intelligently navigates through artwork recommendations and downloads images while respecting the …",
+          cover: "http:\/\/localhost:1313\/images\/ai1.png",
         };
       </script>
     
     
+    
+      
+
+
+
+
+
+  
+      
+      <script src="/js/insert_highlight.js" data-pjax></script>
+      
+
+      
+      
+      
+      
+      <script type="module" data-pjax>
+        const PhotoSwipeLightbox = (await safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js", "sha384-DiL6M\/gG\u002bwmTxmCRZyD1zee6lIhawn5TGvED0FOh7fXcN9B0aZ9dexSF\/N6lrZi\/")).default;
+
+        const pswp = () => {
+          if (_$$('.article-entry a.article-gallery-item').length > 0) {
+            new PhotoSwipeLightbox({
+              gallery: '.article-entry',
+              children: 'a.article-gallery-item',
+              pswpModule: () => safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js", "sha384-WkkO3GCmgkC3VQWpaV8DqhKJqpzpF9JoByxDmnV8\u002boTJ7m3DfYEWX1fu1scuS4\u002bs")
+            }).init();
+          }
+          if(_$$('.article-gallery a.article-gallery-item').length > 0) {
+            new PhotoSwipeLightbox({
+              gallery: '.article-gallery',
+              children: 'a.article-gallery-item',
+              pswpModule: () => safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js", "sha384-WkkO3GCmgkC3VQWpaV8DqhKJqpzpF9JoByxDmnV8\u002boTJ7m3DfYEWX1fu1scuS4\u002bs")
+            }).init();
+          }
+          window.lightboxStatus = 'done';
+          window.removeEventListener('lightbox:ready', pswp);
+        }
+        if(window.lightboxStatus === 'ready') {
+          pswp()
+        } else {
+          window.addEventListener('lightbox:ready', pswp);
+        }
+      </script>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+      
     
     
   </div>
